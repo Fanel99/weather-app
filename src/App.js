@@ -59,15 +59,7 @@ function App() {
   return (
     <Container>
       <Globalstyles />
-      <div
-        className={
-          typeof weather.main !== 'undefined'
-            ? weather.main.temp > 16
-              ? 'app warm'
-              : 'app'
-            : 'app'
-        }
-      >
+      <div>
         <main>
           <div className="search-box">
             <input

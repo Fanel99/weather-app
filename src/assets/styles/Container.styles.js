@@ -7,14 +7,9 @@ export const Container = styled.div`
   margin: 0 auto;
 
   .app {
-    background-image: url('../../assets/cold-bg.jpg');
     background-size: 50%;
     background-position: bottom;
     transition: 0.4 ease;
-  }
-
-  .app.warm {
-    background-image: url('../../assets/warm-bg.jpg');
   }
 
   main {
@@ -66,16 +61,14 @@ export const Container = styled.div`
     font-size: 32px;
     font-weight: 500;
     text-align: center;
-    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
   }
 
   .location-box .date {
     color: #fff;
     font-size: 20px;
-    font-weight: 300;
-    font-style: italic;
+    margin-top: 10px;
+
     text-align: center;
-    text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
   }
 
   .weather-box {
